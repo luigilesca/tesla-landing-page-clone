@@ -1,4 +1,4 @@
-# tesla-landing-page-clone
+# Tesla landing page clone
 
 <div id="top"></div>
 
