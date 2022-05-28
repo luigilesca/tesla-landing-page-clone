@@ -1,5 +1,4 @@
 # tesla-landing-page-clone
-# Guess my number
 
 <div id="top"></div>
 
