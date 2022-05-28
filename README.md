@@ -109,7 +109,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 Project Repository: [Tesla landing page clone
 ](https://github.com/luigilesca/tesla-landing-page-clone.git)
 
-Project Website: [guess-my-number-java-script - Netlify](https://guess-my-number-java-script.netlify.app/)
+Project Website: [tesla-landig-page-clone-model-3 - Netlify](tesla-landing-page-clone-model-3.netlify.app)
 
 Portfolio: [Luigi Lesca-web-developer-portfolio](https://talent.start2impact.it/profile/luigi-lesca)
 
