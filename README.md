@@ -1,4 +1,4 @@
-# tesla-landing-page-clone
+# Tesla landing page clone
 
 <div id="top"></div>
 
@@ -9,7 +9,9 @@
 <br />
 <div >
   <a href="https://github.com/othneildrew/Best-README-Template">
-    <img src="images/image1.png" alt="Logo" width="100%" height="100%" margin-bottom="100px">
+    <img src="public/assets/cover-1.png" alt="Logo" width="100%" height="100%" margin-bottom="100px">
+     <br />
+    <img src="public/assets/cover-2.png" alt="Logo" width="100%" height="100%" margin-bottom="100px">
   </a>
   
  
@@ -41,7 +43,13 @@
 
 
 
-This is a simple game where you can try to guess the secret number!
+This is Tesla clone landing page about Model 3 car. 
+
+I build this project to practice in:
+  
+  - JavaScript animation
+  - JavaScript DOM manipulation
+  - Javascript Events
 
   
 
@@ -75,7 +83,7 @@ npm install npm@latest -g
 1. Clone the repository locally with the git command:
 
    ```sh
-   git clone https://github.com/luigilesca/foodApp_React_2022.git
+   git clone https://github.com/luigilesca/tesla-landing-page-clone.git
    ```
 
 2. Install NPM packages:
@@ -98,10 +106,10 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 [@Luigi Lesca](https://www.linkedin.com/in/luigi-lesca/) - luigilesca@hotmail.it
 
-Project Repository: [Guess my number
-](https://github.com/luigilesca/Guess-my-number-js.git)
+Project Repository: [Tesla landing page clone
+](https://github.com/luigilesca/tesla-landing-page-clone.git)
 
-Project Website: [guess-my-number-java-script - Netlify](https://guess-my-number-java-script.netlify.app/)
+Project Website: [tesla-landig-page-clone-model-3 - Netlify](tesla-landing-page-clone-model-3.netlify.app)
 
 Portfolio: [Luigi Lesca-web-developer-portfolio](https://talent.start2impact.it/profile/luigi-lesca)
 
