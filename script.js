@@ -70,3 +70,36 @@ function isInWiew(element) {
     return false;
   }
 }
+
+// GSAP
+
+gsap.to('.fade', { opacity: 1, y: 0, duration: 1, stagger: 0.3, ease: Power2.easeOut });
+
+ScrollTrigger.batch('.fade-up', {
+  start: 'top 80%',
+  // markers: true,
+  scrub: true,
+  onEnter: (elements, triggers) => {
+    gsap.to(elements, { opacity: 1, stagger: 0.2, y: 0, duration: 1, ease: Power2.easeOut });
+    // console.log(elements.length, 'elements entered');
+  },
+});
+
+ScrollTrigger.batch('.fade-on', {
+  start: 'top 80%',
+  end: 'bottom 40%',
+  // markers: true,
+  scrub: true,
+  onEnter: (elements, triggers) => {
+    gsap.to(elements, { opacity: 1, stagger: 0.15, y: 0, duration: 1.5, ease: Power2.easeOut });
+    // console.log(elements.length, 'elements entered');
+  },
+  onLeave: (elements, triggers) => {
+    gsap.to(elements, { opacity: 0, stagger: 0.15, y: 0 });
+    console.log(elements.length, 'elements left');
+  },
+  onLeaveBack: (elements, triggers) => {
+    gsap.to(elements, { opacity: 1, stagger: 0.15, y: 0 });
+    console.log(elements.length, 'elements left');
+  },
+});

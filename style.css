@@ -345,6 +345,24 @@ ul {
   }
 }
 
+/* ANIMATIONS GSAP */
+.fade {
+  /* border: 2px solid red; */
+  transform: translateY(-1rem);
+  opacity: 0;
+}
+.fade-up {
+  /* border: 2px solid red;  */
+  /* transform: translateY(-1rem); */
+  opacity: 0;
+  transform: translateY(-1rem);
+}
+.fade-on {
+  /* border: 2px solid red; */
+  transform: translateY(-1rem);
+  opacity: 0;
+}
+
 /* ! Grid System */
 .grid {
   /* border: 2px solid red; */
